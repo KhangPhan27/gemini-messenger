@@ -10,13 +10,7 @@ If you encounter an error like this:
 `ImportError: failed to find libmagic.  Check your installation`
 
 You need to install libmagic.
-
-For Termux:
-
-```bash
-pkg install sox
-```
-For Other Platforms, try installing `python-magic-bin`:
+`python-magic-bin`:
 
 ```bash
 pip install python-magic-bin==0.4.14
