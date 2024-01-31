@@ -2,7 +2,6 @@ import google.generativeai as genai
 from os import environ
 from dotenv import load_dotenv
 from os.path import join, dirname
-from google.ai import generativelanguage
 # config Gemini model
 load_dotenv(join(dirname(__file__), ".env"))
 genai.configure(api_key=environ.get("GEMINI_API"))
