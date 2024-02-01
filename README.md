@@ -11,7 +11,11 @@ If you encounter an error like this:
 
 You need to install libmagic.
 `python-magic-bin`:
-
+For Termux:
+```bash
+pkg install sox
+```
+For other platforms:
 ```bash
 pip install python-magic-bin==0.4.14
 ```
